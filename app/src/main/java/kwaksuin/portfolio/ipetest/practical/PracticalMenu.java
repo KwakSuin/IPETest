@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import kwaksuin.portfolio.ipetest.R;
+
 public class PracticalMenu extends AppCompatActivity {
 
     @Override
