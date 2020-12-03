@@ -20,5 +20,7 @@
     <string name="text100_018"></string>
     <string name="text100_019"></string>
     <string name="text100_020"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
