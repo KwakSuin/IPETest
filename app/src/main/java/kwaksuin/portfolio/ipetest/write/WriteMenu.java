@@ -20,7 +20,7 @@ public class WriteMenu extends AppCompatActivity {
         test01.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Write_50.class);
+                Intent intent = new Intent(getApplicationContext(), Write50_container.class);
                 startActivity(intent);
             }
         });
