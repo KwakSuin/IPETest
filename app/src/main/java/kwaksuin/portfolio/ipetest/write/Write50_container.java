@@ -17,7 +17,7 @@ public class Write50_container extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.write_50);
+        setContentView(R.layout.write50_container);
 
         fragmentmanager = getSupportFragmentManager();
 

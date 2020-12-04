@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    /** 필기 50문제 page 01~02 10문제 **/
+    <string name="write50_001">GoF(Gang of Four)의 디자인 패턴에서 생성패턴에 속하는 것은?</string>
+    <string name="write50_002">객체지향 프로그램에서 객체에게 어떤 행위를 하도록 지시하기 위한 방법은?</string>
+    <string name="write50_003">객체지향 기법에서 클래스와 객체의 참조 및 이용관계로 ‘is member of’로 설명되며 같은 계층에 속하는 클래스들 사이의 상호 의존성을 보여주는 비계층적 관계성은 무엇인가?</string>
+    <string name="write50_004">객체지향 분석 방법론 중 설계 문서화를 강조하여 설계만 존재하는 방법론으로 미시적 개발프로세스와 거시적 개발프로세스를 모두 사용하는 분석 방법은?</string>
+    <string name="write50_005">코드 설계에서 코드화 대상 항목의 성질, 즉 길이, 넓이, 부피, 높이 등의 물리적 수치를 그대로 코드에 적용시키는 방법은?</string>
+    <string name="write50_006">소프트웨어 설계 시 구축된 플랫폼의 성능특성 중 주어진 시간에 처리할 수 있는 처리 건수, 단위 시간당 처리한 건수를 뜻하는 개념은?</string>
+    <string name="write50_007">자료 사전에서 둘 중 하나, 택일을 의미하는 기호는?</string>
+    <string name="write50_008">소프트웨어 요구, 설계 원시 코드 등의 저작자 외의 다른 전문가 또는 팀이 검사하여 오류를 찾아내는 요구사항 검토 방법은?</string>
+    <string name="write50_009">분석자동화도구(CASE) 중 상위CASE의 기능이 아닌 것은?</string>
+    <string name="write50_010">린(LEAN)개발 방법론의 7가지 원칙으로 거리가 먼 것은?</string>
+
+    /** 필기 50문제 page 03~04 10문제 **/
+
+</resources>

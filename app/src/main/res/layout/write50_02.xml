@@ -11,9 +11,9 @@
         android:id="@+id/test06"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="문제06"
+        android:text="@string/write50_006"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:layout_marginTop="10dp"/>
 
     <LinearLayout
@@ -28,22 +28,26 @@
                 android:id="@+id/test06_01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답01"/>
+                android:text="응답시간"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test06_02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답02"/>
+                android:text="처리량"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test06_03"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답03"/>
+                android:text="자원 사용률"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test06_04"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답04"/>
+                android:text="경과시간"
+                android:textSize="13sp"/>
 
         </RadioGroup>
     </LinearLayout>
@@ -52,9 +56,9 @@
         android:id="@+id/test07"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="문제07"
+        android:text="@string/write50_007"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:layout_marginTop="10dp"/>
 
     <LinearLayout
@@ -69,22 +73,26 @@
                 android:id="@+id/test07_01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답01"/>
+                android:text="{ }"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test07_02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답02"/>
+                android:text="**"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test07_03"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답03"/>
+                android:text="="
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test07_04"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답04"/>
+                android:text="[ ]"
+                android:textSize="13sp"/>
         </RadioGroup>
     </LinearLayout>
 
@@ -92,9 +100,9 @@
         android:id="@+id/test08"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="문제08"
+        android:text="@string/write50_008"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:layout_marginTop="10dp"/>
 
     <LinearLayout
@@ -109,62 +117,70 @@
                 android:id="@+id/test08_01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답01"/>
+                android:text="인스펙션"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test08_02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답02"/>
+                android:text="동료 검토"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test08_03"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답03"/>
+                android:text="워크 스루"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test08_04"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답04"/>
+                android:text="개발자 검토"
+                android:textSize="13sp"/>
         </RadioGroup>
     </LinearLayout>
     <TextView
         android:id="@+id/test09"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="문제09"
+        android:text="@string/write50_009"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:layout_marginTop="10dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical">
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/test09_01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답01"/>
+                android:text="소스 코드 생성 지원"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test09_02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답02"/>
+                android:text="자료흐름도 작성 지원"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test09_03"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답03"/>
+                android:text="모델의 오류 검증 지원"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test09_04"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답04"/>
+                android:text="요구분석 단계를 다이어그램으로 표현"
+                android:textSize="13sp"/>
         </RadioGroup>
     </LinearLayout>
 
@@ -172,9 +188,9 @@
         android:id="@+id/test10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="문제10"
+        android:text="@string/write50_010"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:layout_marginTop="10dp"/>
 
     <LinearLayout
@@ -190,22 +206,26 @@
                 android:id="@+id/test10_01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답01"/>
+                android:text="낭비제거"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test10_02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답02"/>
+                android:text="지식 창출"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test10_03"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답03"/>
+                android:text="의사 소통"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test10_04"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답04"/>
+                android:text="품질 내재화"
+                android:textSize="13sp"/>
         </RadioGroup>
     </LinearLayout>
 

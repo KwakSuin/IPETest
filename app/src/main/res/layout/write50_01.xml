@@ -11,9 +11,9 @@
         android:id="@+id/test01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="문제01"
+        android:text="@string/write50_001"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:layout_marginTop="10dp"/>
 
     <LinearLayout
@@ -28,22 +28,36 @@
                 android:id="@+id/test01_01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답01"/>
+                android:text="Singleton	"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test01_02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답02"/>
+                android:text="Visitor"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test01_03"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답03"/>
+                android:text="Composite"
+                android:textSize="13sp"/>
             <RadioButton
                 android:id="@+id/test01_04"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="답04"/>
+                android:text="Bridge"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
 
         </RadioGroup>
     </LinearLayout>
@@ -52,9 +66,9 @@
         android:id="@+id/test02"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="문제02"
+        android:text="@string/write50_002"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:layout_marginTop="10dp"/>
 
     <LinearLayout
@@ -69,22 +83,36 @@
             android:id="@+id/test02_01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="답01"/>
+            android:text="메소드"
+            android:textSize="13sp"/>
         <RadioButton
             android:id="@+id/test02_02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="답02"/>
+            android:text="클래스"
+            android:textSize="13sp"/>
         <RadioButton
             android:id="@+id/test02_03"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="답03"/>
+            android:text="상속성"
+            android:textSize="13sp"/>
         <RadioButton
             android:id="@+id/test02_04"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="답04"/>
+            android:text="메시지"
+            android:textSize="13sp"/>
+            <TextView
+                android:id="@+id/error02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="오답"
+                android:visibility="invisible"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                />
         </RadioGroup>
     </LinearLayout>
 
@@ -92,9 +120,9 @@
         android:id="@+id/test03"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="문제03"
+        android:text="@string/write50_003"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:layout_marginTop="10dp"/>
 
     <LinearLayout
@@ -109,62 +137,93 @@
             android:id="@+id/test03_01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="답01"/>
+            android:text="집단화"
+            android:textSize="13sp"/>
         <RadioButton
             android:id="@+id/test03_02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="답02"/>
+            android:text="상속성"
+            android:textSize="13sp"/>
         <RadioButton
             android:id="@+id/test03_03"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="답03"/>
+            android:text="캡슐화"
+            android:textSize="13sp"/>
         <RadioButton
             android:id="@+id/test03_04"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="답04"/>
+            android:text="연관성"
+            android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="오답"
+                android:visibility="invisible"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                />
         </RadioGroup>
     </LinearLayout>
     <TextView
         android:id="@+id/test04"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="문제04"
+        android:text="@string/write50_004"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:layout_marginTop="10dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical">
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
         <RadioButton
             android:id="@+id/test04_01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="답01"/>
+            android:text="Rumbaugh 방법"
+            android:textSize="13sp"/>
         <RadioButton
             android:id="@+id/test04_02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="답02"/>
+            android:text="Booch 방법"
+            android:textSize="13sp"/>
         <RadioButton
             android:id="@+id/test04_03"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="답03"/>
+            android:text="Jacobson 방법"
+            android:textSize="13sp"/>
         <RadioButton
             android:id="@+id/test04_04"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="답04"/>
+            android:text="Wirfs-Brocks 방법"
+            android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="오답"
+                android:visibility="invisible"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                />
         </RadioGroup>
     </LinearLayout>
 
@@ -172,9 +231,9 @@
         android:id="@+id/test05"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="문제05"
+        android:text="@string/write50_005"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:layout_marginTop="10dp"/>
 
     <LinearLayout
@@ -190,22 +249,37 @@
             android:id="@+id/test05_01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="답01"/>
+            android:text="연상 코드"
+            android:textSize="13sp"/>
         <RadioButton
             android:id="@+id/test05_02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="답02"/>
+            android:text="블록 코드"
+            android:textSize="13sp"/>
         <RadioButton
             android:id="@+id/test05_03"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="답03"/>
+            android:text="순차 코드"
+            android:textSize="13sp"/>
         <RadioButton
             android:id="@+id/test05_04"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="답04"/>
+            android:text="표의 숫자 코드"
+            android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="오답"
+                android:visibility="invisible"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                />
         </RadioGroup>
     </LinearLayout>
 
@@ -218,6 +292,5 @@
         android:layout_marginRight="10dp"
         android:textColor="#000000"
         app:backgroundTint="#BDBDBD"/>
-
 
 </LinearLayout>
