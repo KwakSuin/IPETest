@@ -15,6 +15,7 @@ import kwaksuin.portfolio.ipetest.R;
 
 public class Practical50_03 extends Fragment {
     Practical50_02 page02;
+    Practical50_04 page04;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -28,6 +29,7 @@ public class Practical50_03 extends Fragment {
         EditText answer15 = rootView.findViewById(R.id.answer15);
 
         // 다음 문제
+        page04 = new Practical50_04();
         Button next = rootView.findViewById(R.id.next);
         next.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,7 +40,7 @@ public class Practical50_03 extends Fragment {
                         && answer14.getText().toString().equals("모듈화")
                         && answer15.getText().toString().equals("소프트웨어 아키텍처")
                 ){
-                    Toast.makeText(getContext(),"정답입니다.",Toast.LENGTH_SHORT).show();
+                    getFragmentManager().beginTransaction().replace(R.id.container,page04).commit();
                 }
             }
         });
