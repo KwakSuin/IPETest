@@ -8,7 +8,6 @@
     tools:context=".practical.problem50.Practical50_01">
 
     <LinearLayout
-        android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -20,14 +19,21 @@
             android:text="@string/practical50_001"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/error01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오답"
+            android:textColor="#ff0000"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"/>
 
         <EditText
             android:id="@+id/answer01"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="20"
             android:hint="정답"
-            android:inputType="textPersonName"
             android:textColor="#005766" />
 
         <TextView
@@ -37,13 +43,20 @@
             android:text="@string/practical50_002"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/error02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오답"
+            android:textColor="#ff0000"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"/>
         <EditText
             android:id="@+id/answer02"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="20"
             android:hint="정답"
-            android:inputType="textPersonName"
             android:textColor="#005766" />
 
         <TextView
@@ -53,13 +66,20 @@
             android:text="@string/practical50_003"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/error03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오답"
+            android:textColor="#ff0000"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"/>
         <EditText
             android:id="@+id/answer03"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="20"
             android:hint="정답"
-            android:inputType="textPersonName"
             android:textColor="#005766" />
 
         <TextView
@@ -69,13 +89,20 @@
             android:text="@string/practical50_004"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/error04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오답"
+            android:textColor="#ff0000"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"/>
         <EditText
             android:id="@+id/answer04"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="20"
             android:hint="정답"
-            android:inputType="textPersonName"
             android:textColor="#005766" />
 
         <TextView
@@ -85,13 +112,20 @@
             android:text="@string/practical50_005"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/error05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오답"
+            android:textColor="#ff0000"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"/>
         <EditText
             android:id="@+id/answer05"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="20"
             android:hint="정답"
-            android:inputType="textPersonName"
             android:textColor="#005766" />
 
     </LinearLayout>

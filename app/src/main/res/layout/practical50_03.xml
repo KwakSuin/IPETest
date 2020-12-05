@@ -5,22 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".practical.problem50.Practical50_02">
+    tools:context=".practical.problem50.Practical50_03">
 
     <LinearLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/text06"
+            android:id="@+id/text11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/practical50_006"
+            android:text="@string/practical50_011"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
         <TextView
-            android:id="@+id/error06"
+            android:id="@+id/error11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="오답"
@@ -28,31 +29,7 @@
             android:layout_marginTop="10dp"
             android:visibility="invisible"/>
         <EditText
-            android:id="@+id/answer06"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="20"
-            android:hint="정답"
-            android:inputType="textPersonName"
-            android:textColor="#005766" />
-
-        <TextView
-            android:id="@+id/text07"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/practical50_007"
-            android:textColor="#000000"
-            android:layout_marginTop="10dp"/>
-        <TextView
-            android:id="@+id/error07"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="오답"
-            android:textColor="#ff0000"
-            android:layout_marginTop="10dp"
-            android:visibility="invisible"/>
-        <EditText
-            android:id="@+id/answer07"
+            android:id="@+id/answer11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="20"
@@ -60,14 +37,14 @@
             android:textColor="#005766" />
 
         <TextView
-            android:id="@+id/text08"
+            android:id="@+id/text12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/practical50_008"
+            android:text="@string/practical50_012"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
         <TextView
-            android:id="@+id/error08"
+            android:id="@+id/error12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="오답"
@@ -75,7 +52,7 @@
             android:layout_marginTop="10dp"
             android:visibility="invisible"/>
         <EditText
-            android:id="@+id/answer08"
+            android:id="@+id/answer12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="20"
@@ -83,14 +60,14 @@
             android:textColor="#005766" />
 
         <TextView
-            android:id="@+id/text09"
+            android:id="@+id/text13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/practical50_009"
+            android:text="@string/practical50_013"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
         <TextView
-            android:id="@+id/error09"
+            android:id="@+id/error13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="오답"
@@ -98,7 +75,7 @@
             android:layout_marginTop="10dp"
             android:visibility="invisible"/>
         <EditText
-            android:id="@+id/answer09"
+            android:id="@+id/answer13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="20"
@@ -106,14 +83,14 @@
             android:textColor="#005766" />
 
         <TextView
-            android:id="@+id/text10"
+            android:id="@+id/text14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/practical50_010"
+            android:text="@string/practical50_014"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
         <TextView
-            android:id="@+id/error10"
+            android:id="@+id/error14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="오답"
@@ -121,7 +98,30 @@
             android:layout_marginTop="10dp"
             android:visibility="invisible"/>
         <EditText
-            android:id="@+id/answer10"
+            android:id="@+id/answer14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="정답"
+            android:textColor="#005766" />
+
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/practical50_015"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/error15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오답"
+            android:textColor="#ff0000"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"/>
+        <EditText
+            android:id="@+id/answer15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="20"
