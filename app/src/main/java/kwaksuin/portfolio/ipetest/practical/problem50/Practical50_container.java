@@ -1,4 +1,4 @@
-package kwaksuin.portfolio.ipetest.practical;
+package kwaksuin.portfolio.ipetest.practical.problem50;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
@@ -7,7 +7,6 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 
 import kwaksuin.portfolio.ipetest.R;
-import kwaksuin.portfolio.ipetest.write.Write50_01;
 
 public class Practical50_container extends AppCompatActivity {
 

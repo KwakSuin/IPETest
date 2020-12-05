@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import kwaksuin.portfolio.ipetest.R;
+import kwaksuin.portfolio.ipetest.practical.problem50.Practical50_container;
 
 public class PracticalMenu extends AppCompatActivity {
 

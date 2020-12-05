@@ -25,29 +25,11 @@ public class Write50_01 extends Fragment {
 
         page02 = new Write50_02();
 
+        // 정답
         RadioButton num01_01 = rootView.findViewById(R.id.test01_01);
-        RadioButton num01_02 = rootView.findViewById(R.id.test01_02);
-        RadioButton num01_03 = rootView.findViewById(R.id.test01_03);
-        RadioButton num01_04 = rootView.findViewById(R.id.test01_04);
-
-        RadioButton num02_01 = rootView.findViewById(R.id.test02_01);
-        RadioButton num02_02 = rootView.findViewById(R.id.test02_02);
-        RadioButton num02_03 = rootView.findViewById(R.id.test02_03);
         RadioButton num02_04 = rootView.findViewById(R.id.test02_04);
-
-        RadioButton num03_01 = rootView.findViewById(R.id.test03_01);
-        RadioButton num03_02 = rootView.findViewById(R.id.test03_02);
-        RadioButton num03_03 = rootView.findViewById(R.id.test03_03);
         RadioButton num03_04 = rootView.findViewById(R.id.test03_04);
-
-        RadioButton num04_01 = rootView.findViewById(R.id.test04_01);
         RadioButton num04_02 = rootView.findViewById(R.id.test04_02);
-        RadioButton num04_03 = rootView.findViewById(R.id.test04_03);
-        RadioButton num04_04 = rootView.findViewById(R.id.test04_04);
-
-        RadioButton num05_01 = rootView.findViewById(R.id.test05_01);
-        RadioButton num05_02 = rootView.findViewById(R.id.test05_02);
-        RadioButton num05_03 = rootView.findViewById(R.id.test05_03);
         RadioButton num05_04 = rootView.findViewById(R.id.test05_04);
 
         Button next = rootView.findViewById(R.id.next);
@@ -60,7 +42,7 @@ public class Write50_01 extends Fragment {
                     getFragmentManager().beginTransaction().replace(R.id.container, page02).commit();
 
                 }else {
-                    // 정답일 때, "오답" 같이 출력 됨
+                    // 수정 할 부분 : 정답일 때, "오답" 같이 출력 됨
                     TextView error01 = rootView.findViewById(R.id.error01);
                     error01.setVisibility(View.VISIBLE);
 
