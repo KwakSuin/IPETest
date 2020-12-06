@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AlphaAnimation;
+import android.view.animation.Animation;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -16,6 +18,7 @@ import kwaksuin.portfolio.ipetest.R;
 
 public class Practical50_01 extends Fragment {
     Practical50_02 page02;
+    Animation animation;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -28,6 +31,7 @@ public class Practical50_01 extends Fragment {
         EditText answer04 = rootView.findViewById(R.id.answer04);
         EditText answer05 = rootView.findViewById(R.id.answer05);
 
+        // 다음 문제
         page02 = new Practical50_02();
         Button next = rootView.findViewById(R.id.next);
         next.setOnClickListener(new View.OnClickListener() {
@@ -60,6 +64,40 @@ public class Practical50_01 extends Fragment {
                 }
             }
         });
+
+        // hint 효과
+        // AlphaAnimation = 투명도 조절
+        // setDuration = 투명도 시간, 100 = 1초
+        animation = new AlphaAnimation(0.0f, 1.0f);
+        animation.setDuration(1000);
+        animation.setStartOffset(20);
+
+        // 1번 정답 확인하기
+        Button hint01_bt = rootView.findViewById(R.id.text01_bt);
+        TextView hint01 = rootView.findViewById(R.id.hint01);
+        hint01_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                hint01.setVisibility(View.VISIBLE);
+                hint01.startAnimation(animation);
+                hint01.setVisibility(View.INVISIBLE);
+            }
+        });
+
+        // 2번 정답 확인하기
+        Button hint02_bt = rootView.findViewById(R.id.text02_bt);
+        TextView hint02 = rootView.findViewById(R.id.hint02);
+        hint02_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                hint02.setVisibility(View.VISIBLE);
+                hint02.startAnimation(animation);
+                hint02.setVisibility(View.INVISIBLE);
+                
+            }
+        });
+        
+        // 3번 정답 확인하기
 
         return rootView;
     }

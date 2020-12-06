@@ -31,7 +31,7 @@ public class Practical50_06 extends Fragment {
         // 다음 문제
         Button next = rootView.findViewById(R.id.next);
         next.setOnClickListener(new View.OnClickListener() {
-            // 트리거 화이트박스테스트 DRM GIT 테스트케이스
+            // 트리거, 화이트박스테스트, DRM, GIT, 테스트케이스
             @Override
             public void onClick(View v) {
                 if((answer26.getText().toString().equals("트리거") || answer26.getText().toString().equals("Trigger") || answer26.getText().toString().equals("trigger"))
