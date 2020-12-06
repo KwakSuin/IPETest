@@ -12,6 +12,7 @@ import android.widget.EditText;
 
 import kwaksuin.portfolio.ipetest.R;
 
+// 실기 16 ~ 20 문제
 public class Practical50_04 extends Fragment {
     Practical50_03 page03;
     Practical50_05 page05;

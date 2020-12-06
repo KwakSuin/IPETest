@@ -155,6 +155,4 @@
             android:backgroundTint="#BDBDBD"
             android:textColor="#000000"/>
     </LinearLayout>
-
-
 </LinearLayout>
