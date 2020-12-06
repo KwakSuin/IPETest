@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".practical.problem50.Practical50_09">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/practical50_041"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/error41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오답"
+            android:textColor="#ff0000"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"/>
+        <EditText
+            android:id="@+id/answer41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="정답"
+            android:textColor="#005766" />
+
+        <TextView
+            android:id="@+id/text42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/practical50_042"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/error42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오답"
+            android:textColor="#ff0000"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"/>
+        <EditText
+            android:id="@+id/answer42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="정답"
+            android:textColor="#005766" />
+
+        <TextView
+            android:id="@+id/text43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/practical50_043"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/error43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오답"
+            android:textColor="#ff0000"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"/>
+        <EditText
+            android:id="@+id/answer43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="정답"
+            android:textColor="#005766" />
+
+        <TextView
+            android:id="@+id/text44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/practical50_044"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/error44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오답"
+            android:textColor="#ff0000"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"/>
+        <EditText
+            android:id="@+id/answer44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="정답"
+            android:textColor="#005766" />
+
+        <TextView
+            android:id="@+id/text45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/practical50_045"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/error45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오답"
+            android:textColor="#ff0000"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"/>
+        <EditText
+            android:id="@+id/answer45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="정답"
+            android:textColor="#005766" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이전"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#BDBDBD"
+            android:textColor="#000000"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="다음"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#BDBDBD"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+</LinearLayout>
