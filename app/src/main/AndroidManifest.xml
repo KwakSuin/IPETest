@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ipe_icon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IPETest">
-        <activity android:name=".write.Write50_container"></activity>
+        <activity android:name=".practical.exam.PracticalExam_container"></activity>
+        <activity android:name=".write.Write50_container" />
         <activity android:name=".practical.problem50.Practical50_container" />
         <activity android:name=".practical.PracticalMenu" />
         <activity android:name=".write.WriteMenu" />

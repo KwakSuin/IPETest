@@ -48,8 +48,6 @@
                 android:backgroundTint="#BDBDBD"
                 android:layout_marginRight="10dp"/>
         </LinearLayout>
-
-
         <EditText
             android:id="@+id/answer01"
             android:layout_width="match_parent"
