@@ -7,8 +7,11 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AlphaAnimation;
+import android.view.animation.Animation;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import kwaksuin.portfolio.ipetest.R;
 
@@ -16,6 +19,7 @@ import kwaksuin.portfolio.ipetest.R;
 public class Practical50_09 extends Fragment {
     Practical50_08 page08;
     Practical50_10 page10;
+    Animation animation;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -55,6 +59,75 @@ public class Practical50_09 extends Fragment {
                 getFragmentManager().beginTransaction().replace(R.id.container, page08).commit();
             }
         });
+
+        // hint 효과
+        // AlphaAnimation = 투명도 조절
+        // setDuration = 투명도 시간, 100 = 1초
+        animation = new AlphaAnimation(0.0f, 1.0f);
+        animation.setDuration(1000);
+        animation.setStartOffset(20);
+
+        // 41 문제 정답
+        Button hint41_bt = rootview.findViewById(R.id.hint41_bt);
+        TextView hint41 = rootview.findViewById(R.id.hint41);
+        hint41_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                hint41.setVisibility(View.VISIBLE);
+                hint41.startAnimation(animation);
+                hint41.setTextColor(View.INVISIBLE);
+            }
+        });
+
+        // 42 문제 정답
+        Button hint42_bt = rootview.findViewById(R.id.hint42_bt);
+        TextView hint42 = rootview.findViewById(R.id.hint42);
+        hint42_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                hint42.setVisibility(View.VISIBLE);
+                hint42.startAnimation(animation);
+                hint42.setTextColor(View.INVISIBLE);
+            }
+        });
+
+        // 43 문제 정답
+        Button hint43_bt = rootview.findViewById(R.id.hint43_bt);
+        TextView hint43 = rootview.findViewById(R.id.hint43);
+        hint43_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                hint43.setVisibility(View.VISIBLE);
+                hint43.startAnimation(animation);
+                hint43.setTextColor(View.INVISIBLE);
+            }
+        });
+
+        // 44 문제 정답
+        Button hint44_bt = rootview.findViewById(R.id.hint44_bt);
+        TextView hint44 = rootview.findViewById(R.id.hint44);
+        hint44_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                hint44.setVisibility(View.VISIBLE);
+                hint44.startAnimation(animation);
+                hint44.setTextColor(View.INVISIBLE);
+            }
+        });
+
+        // 45 문제 정답
+        Button hint45_bt = rootview.findViewById(R.id.hint45_bt);
+        TextView hint45 = rootview.findViewById(R.id.hint45);
+        hint45_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                hint45.setVisibility(View.VISIBLE);
+                hint45.startAnimation(animation);
+                hint45.setTextColor(View.INVISIBLE);
+            }
+        });
+
+
         return  rootview;
     }
 }

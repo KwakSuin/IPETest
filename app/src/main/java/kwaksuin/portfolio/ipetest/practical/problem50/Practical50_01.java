@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 import kwaksuin.portfolio.ipetest.R;
 
-
+// 실기 1 ~ 5번 문제
 public class Practical50_01 extends Fragment {
     Practical50_02 page02;
     Animation animation;

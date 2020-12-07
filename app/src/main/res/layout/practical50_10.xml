@@ -18,14 +18,35 @@
             android:text="@string/practical50_046"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
-        <TextView
-            android:id="@+id/error46"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="오답"
-            android:textColor="#ff0000"
-            android:layout_marginTop="10dp"
-            android:visibility="invisible"/>
+            android:orientation="horizontal"
+            android:layout_gravity="right">
+            <TextView
+                android:id="@+id/hint46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TCP"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/error46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:layout_marginRight="10dp"
+                android:visibility="invisible"/>
+            <Button
+                android:id="@+id/hint46_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="정답"
+                android:backgroundTint="#BDBDBD"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
         <EditText
             android:id="@+id/answer46"
             android:layout_width="match_parent"
@@ -41,14 +62,35 @@
             android:text="@string/practical50_047"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
-        <TextView
-            android:id="@+id/error47"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="오답"
-            android:textColor="#ff0000"
-            android:layout_marginTop="10dp"
-            android:visibility="invisible"/>
+            android:orientation="horizontal"
+            android:layout_gravity="right">
+            <TextView
+                android:id="@+id/hint47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WAS"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/error47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:layout_marginRight="10dp"
+                android:visibility="invisible"/>
+            <Button
+                android:id="@+id/hint47_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="정답"
+                android:backgroundTint="#BDBDBD"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
         <EditText
             android:id="@+id/answer47"
             android:layout_width="match_parent"
@@ -64,14 +106,35 @@
             android:text="@string/practical50_048"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
-        <TextView
-            android:id="@+id/error48"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="오답"
-            android:textColor="#ff0000"
-            android:layout_marginTop="10dp"
-            android:visibility="invisible"/>
+            android:orientation="horizontal"
+            android:layout_gravity="right">
+            <TextView
+                android:id="@+id/hint48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가용성, 무결성, 기밀성"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/error48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:layout_marginRight="10dp"
+                android:visibility="invisible"/>
+            <Button
+                android:id="@+id/hint48_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="정답"
+                android:backgroundTint="#BDBDBD"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
         <EditText
             android:id="@+id/answer48"
             android:layout_width="match_parent"
@@ -87,14 +150,35 @@
             android:text="@string/practical50_049"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
-        <TextView
-            android:id="@+id/error49"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="오답"
-            android:textColor="#ff0000"
-            android:layout_marginTop="10dp"
-            android:visibility="invisible"/>
+            android:orientation="horizontal"
+            android:layout_gravity="right">
+            <TextView
+                android:id="@+id/hint49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="검증, 확인"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/error49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:layout_marginRight="10dp"
+                android:visibility="invisible"/>
+            <Button
+                android:id="@+id/hint49_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="정답"
+                android:backgroundTint="#BDBDBD"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
         <EditText
             android:id="@+id/answer49"
             android:layout_width="match_parent"
@@ -110,14 +194,35 @@
             android:text="@string/practical50_050"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
-        <TextView
-            android:id="@+id/error50"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="오답"
-            android:textColor="#ff0000"
-            android:layout_marginTop="10dp"
-            android:visibility="invisible"/>
+            android:orientation="horizontal"
+            android:layout_gravity="right">
+            <TextView
+                android:id="@+id/hint50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="미들웨어"
+                android:textColor="#000000"
+                android:visibility="invisible"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/error50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:layout_marginRight="10dp"
+                android:visibility="invisible"/>
+            <Button
+                android:id="@+id/hint50_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="정답"
+                android:backgroundTint="#BDBDBD"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
         <EditText
             android:id="@+id/answer50"
             android:layout_width="match_parent"
