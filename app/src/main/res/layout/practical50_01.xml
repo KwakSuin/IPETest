@@ -41,7 +41,7 @@
                 android:layout_marginRight="10dp"
                 android:visibility="invisible"/>
             <Button
-                android:id="@+id/text01_bt"
+                android:id="@+id/hint01_bt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="정답"
@@ -87,7 +87,7 @@
                 android:layout_marginRight="10dp"
                 android:visibility="invisible"/>
             <Button
-                android:id="@+id/text02_bt"
+                android:id="@+id/hint02_bt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="정답"
@@ -131,7 +131,7 @@
                 android:layout_marginRight="10dp"
                 android:visibility="invisible"/>
             <Button
-                android:id="@+id/text03_bt"
+                android:id="@+id/hint03_bt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="정답"
@@ -175,7 +175,7 @@
                 android:layout_marginRight="10dp"
                 android:visibility="invisible"/>
             <Button
-                android:id="@+id/text04_bt"
+                android:id="@+id/hint04_bt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="정답"
@@ -220,7 +220,7 @@
                 android:layout_marginRight="10dp"
                 android:visibility="invisible"/>
             <Button
-                android:id="@+id/text05_bt"
+                android:id="@+id/hint05_bt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="정답"

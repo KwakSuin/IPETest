@@ -73,7 +73,7 @@ public class Practical50_01 extends Fragment {
         animation.setStartOffset(20);
 
         // 1번 정답 확인하기
-        Button hint01_bt = rootView.findViewById(R.id.text01_bt);
+        Button hint01_bt = rootView.findViewById(R.id.hint01_bt);
         TextView hint01 = rootView.findViewById(R.id.hint01);
         hint01_bt.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -85,7 +85,7 @@ public class Practical50_01 extends Fragment {
         });
 
         // 2번 정답 확인하기
-        Button hint02_bt = rootView.findViewById(R.id.text02_bt);
+        Button hint02_bt = rootView.findViewById(R.id.hint02_bt);
         TextView hint02 = rootView.findViewById(R.id.hint02);
         hint02_bt.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -98,6 +98,40 @@ public class Practical50_01 extends Fragment {
         });
         
         // 3번 정답 확인하기
+        Button hint03_bt = rootView.findViewById(R.id.hint03_bt);
+        TextView hint03 = rootView.findViewById(R.id.hint03);
+        hint03_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                hint03.setVisibility(View.VISIBLE);
+                hint03.startAnimation(animation);
+                hint03.setVisibility(View.INVISIBLE);
+            }
+        });
+
+        // 4번 정답 확인하기
+        Button hint04_bt = rootView.findViewById(R.id.hint04_bt);
+        TextView hint04 = rootView.findViewById(R.id.hint04);
+        hint04_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                hint04.setVisibility(View.VISIBLE);
+                hint04.startAnimation(animation);
+                hint04.setVisibility(View.INVISIBLE);
+            }
+        });
+
+        // 5번 정답 확인하기
+        Button hint05_bt = rootView.findViewById(R.id.hint05_bt);
+        TextView hint05 = rootView.findViewById(R.id.hint05);
+        hint05_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                hint05.setVisibility(View.VISIBLE);
+                hint05.startAnimation(animation);
+                hint05.setVisibility(View.INVISIBLE);
+            }
+        });
 
         return rootView;
     }
