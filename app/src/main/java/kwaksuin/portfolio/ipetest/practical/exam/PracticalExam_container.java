@@ -13,7 +13,7 @@ public class PracticalExam_container extends AppCompatActivity {
 
     FragmentManager fragmentmanager;
     FragmentTransaction transaction;
-    PracticalExam_2020_01_1 page01;
+    PracticalExam_menu menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,8 +22,8 @@ public class PracticalExam_container extends AppCompatActivity {
 
         fragmentmanager = getSupportFragmentManager();
 
-        page01 = new PracticalExam_2020_01_1();
+        menu = new PracticalExam_menu();
         transaction = fragmentmanager.beginTransaction();
-        transaction.replace(R.id.container,page01).commitAllowingStateLoss();
+        transaction.replace(R.id.container,menu).commit();
     }
 }

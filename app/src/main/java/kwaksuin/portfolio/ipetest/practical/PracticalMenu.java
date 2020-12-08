@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.TextView;
 
 import kwaksuin.portfolio.ipetest.R;
-import kwaksuin.portfolio.ipetest.practical.exam.PracticalExam_2020_01_1;
 import kwaksuin.portfolio.ipetest.practical.exam.PracticalExam_container;
 import kwaksuin.portfolio.ipetest.practical.problem50.Practical50_container;
 
