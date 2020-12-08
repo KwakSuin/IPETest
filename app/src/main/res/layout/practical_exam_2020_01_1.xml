@@ -57,6 +57,7 @@
                 android:visibility="invisible"
                 android:layout_marginRight="10dp"/>
 
+
             <TextView
                 android:id="@+id/text02"
                 android:layout_width="match_parent"
