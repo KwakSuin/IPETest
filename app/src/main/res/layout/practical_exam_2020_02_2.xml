@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".practical.exam.PracticalExam_2020_02_1">
+    tools:context=".practical.exam.PracticalExam_2020_02_2">
 
     <TextView
         android:layout_width="match_parent"
@@ -23,10 +23,10 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/text01"
+            android:id="@+id/text06"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PR_Exam2020_02_01"
+            android:text="@string/PR_Exam2020_02_06"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
         <LinearLayout
@@ -35,7 +35,7 @@
             android:orientation="horizontal"
             android:layout_gravity="right">
             <Button
-                android:id="@+id/hint01_bt"
+                android:id="@+id/hint06_bt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="정답"
@@ -43,17 +43,17 @@
                 android:layout_marginRight="10dp"/>
         </LinearLayout>
         <EditText
-            android:id="@+id/answer01"
+            android:id="@+id/answer06"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="50"
             android:hint="정답"
             android:textColor="#005766" />
         <TextView
-            android:id="@+id/hint01"
+            android:id="@+id/hint06"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="재해 복구 시간, RTO, Recovery Time Objective"
+            android:text="정적 분석 도구"
             android:textColor="#000000"
             android:visibility="invisible"
             android:layout_marginRight="10dp"/>
@@ -61,10 +61,10 @@
 
 
         <TextView
-            android:id="@+id/text02"
+            android:id="@+id/text07"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PR_Exam2020_02_02"
+            android:text="@string/PR_Exam2020_02_07"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
         <LinearLayout
@@ -73,7 +73,7 @@
             android:orientation="horizontal"
             android:layout_gravity="right">
             <Button
-                android:id="@+id/hint02_bt"
+                android:id="@+id/hint07_bt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="정답"
@@ -81,17 +81,17 @@
                 android:layout_marginRight="10dp"/>
         </LinearLayout>
         <EditText
-            android:id="@+id/answer02"
+            android:id="@+id/answer07"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="50"
             android:hint="정답"
             android:textColor="#005766" />
         <TextView
-            android:id="@+id/hint02"
+            android:id="@+id/hint07"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="비동기 통신기법, AJAX, Asynchronous JavaScript and XML"
+            android:text="Observer (Pattern)"
             android:textColor="#000000"
             android:visibility="invisible"
             android:layout_marginRight="10dp"/>
@@ -99,10 +99,10 @@
 
 
         <TextView
-            android:id="@+id/text03"
+            android:id="@+id/text08"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PR_Exam2020_02_03"
+            android:text="@string/PR_Exam2020_02_08"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
         <LinearLayout
@@ -111,7 +111,7 @@
             android:orientation="horizontal"
             android:layout_gravity="right">
             <Button
-                android:id="@+id/hint03_bt"
+                android:id="@+id/hint08_bt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="정답"
@@ -119,17 +119,17 @@
                 android:layout_marginRight="10dp"/>
         </LinearLayout>
         <EditText
-            android:id="@+id/answer03"
+            android:id="@+id/answer08"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="50"
             android:hint="정답"
             android:textColor="#005766" />
         <TextView
-            android:id="@+id/hint03"
+            android:id="@+id/hint08"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="애자일, 애자일 방법론, 에자일, Agile"
+            android:text="안드로이드(Android)"
             android:textColor="#000000"
             android:visibility="invisible"
             android:layout_marginRight="10dp"/>
@@ -137,10 +137,10 @@
 
 
         <TextView
-            android:id="@+id/text04"
+            android:id="@+id/text09"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PR_Exam2020_02_04"
+            android:text="@string/PR_Exam2020_02_09"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
         <LinearLayout
@@ -149,7 +149,7 @@
             android:orientation="horizontal"
             android:layout_gravity="right">
             <Button
-                android:id="@+id/hint04_bt"
+                android:id="@+id/hint09_bt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="정답"
@@ -157,17 +157,17 @@
                 android:layout_marginRight="10dp"/>
         </LinearLayout>
         <EditText
-            android:id="@+id/answer04"
+            android:id="@+id/answer09"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="50"
             android:hint="정답"
             android:textColor="#005766" />
         <TextView
-            android:id="@+id/hint04"
+            android:id="@+id/hint09"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="트랜잭션 실패 시 작업을 취소하고 트랜잭션 실행 이전으로 되돌리는 명령어"
+            android:text="SOAP"
             android:textColor="#000000"
             android:visibility="invisible"
             android:layout_marginRight="10dp"/>
@@ -175,10 +175,10 @@
 
 
         <TextView
-            android:id="@+id/text05"
+            android:id="@+id/text10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PR_Exam2020_02_05"
+            android:text="@string/PR_Exam2020_02_10"
             android:textColor="#000000"
             android:layout_marginTop="10dp"/>
         <LinearLayout
@@ -187,7 +187,7 @@
             android:orientation="horizontal"
             android:layout_gravity="right">
             <Button
-                android:id="@+id/hint05_bt"
+                android:id="@+id/hint10_bt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="정답"
@@ -195,30 +195,46 @@
                 android:layout_marginRight="10dp"/>
         </LinearLayout>
         <EditText
-            android:id="@+id/answer05"
+            android:id="@+id/answer10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="50"
             android:hint="정답"
             android:textColor="#005766" />
         <TextView
-            android:id="@+id/hint05"
+            android:id="@+id/hint10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="IPSec"
+            android:text="응용프로그램의 보안 취약점을 이용해서 악의적인 SQL 구문을 삽입, 실행시켜서 데이터베이스(DB)의 접근을 통해 정보를 탈취하거나 조작 등의 행위를 하는 공격기법이다."
             android:textColor="#000000"
             android:visibility="invisible"
             android:layout_marginRight="10dp"/>
     </LinearLayout>
 
-    <Button
-        android:id="@+id/next"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:layout_marginRight="10dp"
-        android:text="다음"
-        android:textColor="#000000"
-        app:backgroundTint="#BDBDBD" />
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이전"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#BDBDBD"
+            android:textColor="#000000"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
 
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="다음"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#BDBDBD"
+            android:textColor="#000000"/>
+    </LinearLayout>
 </LinearLayout>
