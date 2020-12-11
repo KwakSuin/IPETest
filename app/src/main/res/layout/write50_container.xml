@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".write.Write50_container">
+    tools:context=".write.problem50.Write50_container">
 
     <TextView
         android:id="@+id/intro"

@@ -1,6 +1,5 @@
 package kwaksuin.portfolio.ipetest.practical.exam;
 
-import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -13,41 +12,43 @@ import android.view.animation.Animation;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import kwaksuin.portfolio.ipetest.R;
 
-// 2020년 제 2회 실기 문제 1 ~ 5번
-public class PracticalExam_2020_02_1 extends Fragment {
-    PracticalExam_2020_02_2 page02;
+// 2020년 제 3회 실기 1 ~ 6번 문제
+public class PracticalExam_2020_03_1 extends Fragment {
+    PracticalExam_2020_03_2 page02;
     Animation animation;
-    private SharedPreferences answerData;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        ViewGroup rootview = (ViewGroup) inflater.inflate(R.layout.practical_exam_2020_02_1, container, false);
+        ViewGroup rootview = (ViewGroup)inflater.inflate(R.layout.practical_exam_2020_03_1, container, false);
 
         EditText answer01 = rootview.findViewById(R.id.answer01);
         EditText answer02 = rootview.findViewById(R.id.answer02);
         EditText answer03 = rootview.findViewById(R.id.answer03);
         EditText answer04 = rootview.findViewById(R.id.answer04);
         EditText answer05 = rootview.findViewById(R.id.answer05);
+        EditText answer06 = rootview.findViewById(R.id.answer06);
 
         // 다음 문제
-        page02 = new PracticalExam_2020_02_2();
+        page02 = new PracticalExam_2020_03_2();
         Button next = rootview.findViewById(R.id.next);
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if ((answer01.getText().toString().equals("재해복구시간") || answer01.getText().toString().equals("RTO") || answer01.getText().toString().equals("Recovery Time Objective"))
-                        && (answer02.getText().toString().equals("비동기 통신기법") || answer02.getText().toString().equals("AJAX") || answer02.getText().toString().equals("Asynchronous JavaScript and XML"))
-                        && (answer03.getText().toString().equals("애자일") || answer03.getText().toString().equals("애자일 방법론") || answer03.getText().toString().equals("Agile") || answer03.getText().toString().equals("에자일"))
-                        && answer04.getText().toString().equals("트랜잭션 실패 시 작업을 취소하고 트랜잭션 실행 이전으로 되돌리는 명령어")
-                        && answer05.getText().toString().equals("IPSec")
-                ) {
-                    getFragmentManager().beginTransaction().replace(R.id.container, page02).commit();
+                if(answer01.getText().toString().equals("")
+                        && answer02.getText().toString().equals("")
+                        && answer03.getText().toString().equals("")
+                        && answer04.getText().toString().equals("")
+                        && answer05.getText().toString().equals("")
+                        && answer06.getText().toString().equals("")
+
+                ){
+                    getFragmentManager().beginTransaction().replace(R.id.container,page02).commit();
                 }
+
             }
         });
 
@@ -58,7 +59,6 @@ public class PracticalExam_2020_02_1 extends Fragment {
         animation = new AlphaAnimation(1.0f, 1.0f);
         animation.setDuration(1000);
         animation.setStartOffset(1000);
-
 
         // 1번 문제 정답
         Button hint01_bt = rootview.findViewById(R.id.hint01_bt);
@@ -117,6 +117,18 @@ public class PracticalExam_2020_02_1 extends Fragment {
                 hint05.setVisibility(View.VISIBLE);
                 hint05.startAnimation(animation);
                 hint05.setVisibility(View.INVISIBLE);
+            }
+        });
+
+        // 6번 문제 정답
+        Button hint06_bt = rootview.findViewById(R.id.hint06_bt);
+        TextView hint06 = rootview.findViewById(R.id.hint06);
+        hint06_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                hint06.setVisibility(View.VISIBLE);
+                hint06.startAnimation(animation);
+                hint06.setVisibility(View.INVISIBLE);
             }
         });
 

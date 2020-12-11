@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IPETest">
         <activity android:name=".practical.exam.PracticalExam_container" />
-        <activity android:name=".write.Write50_container" />
+        <activity android:name=".write.problem50.Write50_container" />
         <activity android:name=".practical.problem50.Practical50_container" />
         <activity android:name=".practical.PracticalMenu" />
         <activity android:name=".write.WriteMenu" />

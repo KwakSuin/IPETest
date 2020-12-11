@@ -1,6 +1,5 @@
-package kwaksuin.portfolio.ipetest.write;
+package kwaksuin.portfolio.ipetest.write.problem50;
 
-import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;

@@ -33,6 +33,19 @@
     <string name="PR_Exam2020_02_14">14. 진 데이터베이스 설계 순서를 알맞게 나열하시오. 요구사항 분석 → (     ) → (     ) → (     ) </string>
     <string name="PR_Exam2020_02_15">15. 소프트웨어 개발 과정에서 변경 사항을 관리하는 기법은 (     )기법이라고 하며 (     )기법을 활용한 도구로는 CVS, SVN, Git 등이 있다. 빈칸에 알맞은 용어를 작성하시오</string>
 
+    /** 2020년 제 3회 실기 시험문제 **/
+    <string name="PR_Exam2020_03_01">1. 리팩토링의 목적을 서술하시오.</string>
+    <string name="PR_Exam2020_03_02">2. 대포적인 내부 라우팅 프로토콜로 다익스트라 알고리즘을 이용한 대규모 네트워크에 적합한 링크 상태 라우팅 프로토콜로도 불리는 라우팅 프로토콜은 무엇인가?</string>
+    <string name="PR_Exam2020_03_03">3. 심리학자 톰 마릴은 컴퓨터가 메시지를 전달하고, 메시지가 제대로 도착했는지 확인하며, 도착하지 않았을 경우 메시지를 재전송하는 일련의 방법을 ‘기술적 은어’를 뜻하는 (       )라는 용어로 정의하였다. (       )에 들어갈 용어는?</string>
+    <string name="PR_Exam2020_03_04">4. 형상통제를 설명하시오.</string>
+    <string name="PR_Exam2020_03_05">5. TCP/IP에서 오류가 발생하면 (     )메시지를 보낸다. (     )에 들어갈 용어는?</string>
+    <string name="PR_Exam2020_03_06">6. 헝가리안 표기법이란?</string>
+    <string name="PR_Exam2020_03_07">7. 동치 분할 테스트, 경계값 테스트 등의 종류가 있는 것</string>
+    <string name="PR_Exam2020_03_08">8. DB의 스키마를 설명하시오.</string>
+    <string name="PR_Exam2020_03_09">9. EAI 유형 2가지를 서술하시오.</string>
+    <string name="PR_Exam2020_03_10">10. UI에서 직관성이란?</string>
+    <string name="PR_Exam2020_03_11">11. c++에서 생성자란 무엇인가?</string>
+    <string name="PR_Exam2020_03_12">12. DB에 컬럼 추가하는 명령어는?</string>
 
 
 

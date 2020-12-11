@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import kwaksuin.portfolio.ipetest.R;
+import kwaksuin.portfolio.ipetest.write.problem50.Write50_container;
 
 public class WriteMenu extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package kwaksuin.portfolio.ipetest.write;
+package kwaksuin.portfolio.ipetest.write.problem50;
 
 import android.os.Bundle;
 

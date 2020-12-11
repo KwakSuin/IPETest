@@ -14,6 +14,7 @@ import kwaksuin.portfolio.ipetest.R;
 public class PracticalExam_menu extends Fragment {
     PracticalExam_2020_01_1 exam2020_01;
     PracticalExam_2020_02_1 exam2020_02;
+    PracticalExam_2020_03_1 exam2020_03;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -37,6 +38,16 @@ public class PracticalExam_menu extends Fragment {
             @Override
             public void onClick(View v) {
                 getFragmentManager().beginTransaction().replace(R.id.container,exam2020_02).commit();
+            }
+        });
+
+        // 2020년 제 3회 실기
+        exam2020_03 = new PracticalExam_2020_03_1();
+        TextView exam03 = rootview.findViewById(R.id.exam03);
+        exam03.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getFragmentManager().beginTransaction().replace(R.id.container,exam2020_03).commit();
             }
         });
 
