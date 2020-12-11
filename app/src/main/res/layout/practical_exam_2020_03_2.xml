@@ -52,7 +52,7 @@
             android:id="@+id/hint07"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" "
+            android:text="블랙박스 테스트(명세 기반 테스트)"
             android:textColor="#000000"
             android:visibility="invisible"
             android:layout_marginRight="10dp"/>
@@ -90,7 +90,7 @@
             android:id="@+id/hint08"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="데이터베이스의 구조와 제약조건에 관한 전반적인 명세를 기술한 메타데이터의 집합"
             android:textColor="#000000"
             android:visibility="invisible"
             android:layout_marginRight="10dp"/>
@@ -128,7 +128,7 @@
             android:id="@+id/hint09"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" "
+            android:text="Point to Point, Hub n Spoke"
             android:textColor="#000000"
             android:visibility="invisible"
             android:layout_marginRight="10dp"/>
@@ -166,7 +166,7 @@
             android:id="@+id/hint10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" "
+            android:text="누구나 쉽게 이해하고, 쉽게 사용할 수 있어야 하고 쉬운 검색, 쉬운 사용성, 일관성의 부특성을 가지고 있는 UI 설계원칙"
             android:textColor="#000000"
             android:visibility="invisible"
             android:layout_marginRight="10dp"/>
@@ -204,7 +204,7 @@
             android:id="@+id/hint11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" "
+            android:text="객체 초기화 함수 객체 생성 시 자동호출되는 메소드"
             android:textColor="#000000"
             android:visibility="invisible"
             android:layout_marginRight="10dp"/>
@@ -242,7 +242,7 @@
             android:id="@+id/hint12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" "
+            android:text="ALTER, ADD"
             android:textColor="#000000"
             android:visibility="invisible"
             android:layout_marginRight="10dp"/>

@@ -38,12 +38,12 @@ public class PracticalExam_2020_03_1 extends Fragment {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(answer01.getText().toString().equals("")
-                        && answer02.getText().toString().equals("")
-                        && answer03.getText().toString().equals("")
-                        && answer04.getText().toString().equals("")
-                        && answer05.getText().toString().equals("")
-                        && answer06.getText().toString().equals("")
+                if(answer01.getText().toString().equals("소프트웨어를 보다 이해하기 쉽고, 수정하기 쉽도록 만드는 것")
+                        && answer02.getText().toString().equals("OSPF")
+                        && answer03.getText().toString().equals("프로토콜")
+                        && answer04.getText().toString().equals("형상 항목의 버전 관리를 위해서 변경 여부와 변경 활동을 통제하는 활동")
+                        && answer05.getText().toString().equals("ICMP")
+                        && answer06.getText().toString().equals("프로그래밍 언어에서 변수 및 함수의 인자 이름 앞에 데이터 타입을 명시하는 코딩 규칙")
 
                 ){
                     getFragmentManager().beginTransaction().replace(R.id.container,page02).commit();
