@@ -21,6 +21,7 @@ public class WriteExam_menu extends Fragment {
 
 
         // 제 1,2회 필기 문제
+        exam01 = new WriteExam_2020_01_1();
         TextView test01 = rootview.findViewById(R.id.exam01);
         test01.setOnClickListener(new View.OnClickListener() {
             @Override
