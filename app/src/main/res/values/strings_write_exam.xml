@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    /** 필기 제 1회, 제 1과목 소프트웨어 설계 1 ~ 20 문제 **/
+    <string name="WriteExam_2020_01_1">1. 검토회의 전에 요구사항 명세서를 미리 배포하여 사전 검토한 후 짧은 검토 회의를 통해 오류를 조기에 검출하는데 목적을 두는 요구 사항 검토 방법은?</string>
+    <string name="WriteExam_2020_01_2">2. 코드 설계에서 일정한 일련번호를 부여하는 방식의 코드는?</string>
+    <string name="WriteExam_2020_01_3">3. 객체지향 프로그램에서 데이터를 추상화하는 단위는?</string>
+    <string name="WriteExam_2020_01_4">4. 데이터 흐름도(DFD)의 구성요소에 포함되지 않는 것은?</string>
+    <string name="WriteExam_2020_01_5">5. 소프트웨어 설계 시 구축된 플랫폼의 성능특성 분석에 사용되는 측정 항목이 아닌 것은?</string>
+    <string name="WriteExam_2020_01_6">6. UML 확장 모델에서 스테레오 타입 객체를 표현할 때 사용하는 기호로 맞는 것은?</string>
+    <string name="WriteExam_2020_01_7">7. GoF(Gang of Four)의 디자인 패턴에서 행위패턴에 속하는 것은?</string>
+    <string name="WriteExam_2020_01_8">8. 자료 사전에서 자료의 생략을 의미하는 기호는?</string>
+    <string name="WriteExam_2020_01_9">9. 트랙잭션이 올바르게 처리되고 있는지 데이터를 감시하고 제어하는 미들웨어는?</string>
+    <string name="WriteExam_2020_01_10">UI 설계 원칙에서 누구나 쉽게 이해하고 사용할 수 있어야 한다는 것은?</string>
+
+    <string name="WriteExam_2020_01_11">11. XP(eXtreme Programming)의 5가지 가치로 거리가 먼 것은?</string>
+    <string name="WriteExam_2020_01_12">12. UML 모델에서 사용하는 Structural Diagram에 속하지 않은 것은?</string>
+    <string name="WriteExam_2020_01_13">13. 소프트웨어 개발 방법 중 요구사항 분석(requirements analysis)과 거리가 먼 것은?</string>
+    <string name="WriteExam_2020_01_14">14. 럼바우(Rumbaugh)의 객체지향 분석 절차를 가장 바르게 나열한 것은?</string>
+    <string name="WriteExam_2020_01_15">15. 공통 모듈에 대한 명세 기법 중 해당 기능에 대해 일관되게 이해되고 한 가지로 해석될 수 있도록 작성하는 원칙은?</string>
+    <string name="WriteExam_2020_01_16">16. 객체지향 기법에서 클래스들 사이의 부분-전체 관계 또는 부분의 관계로 설명되는 연관성을 나타내는 용어는?</string>
+    <string name="WriteExam_2020_01_17">17. CASE가 갖고 있는 주요 기능이 아닌 것은?</string>
+    <string name="WriteExam_2020_01_18">18. DBMS 분석시 고려사항으로 거리가 먼 것은?</string>
+    <string name="WriteExam_2020_01_19">19. HIPO에 대한 설명으로 거리가 먼 것은?</string>
+    <string name="WriteExam_2020_01_20">20. 객체지향 분석 방법론 중 E-R다이어그램을 사용하여 객체의 행위를 모델링하며, 객체 식별, 구조 식별, 주체 정의, 속성 및 관계 정의, 서비스 정의 등의 과정으로 구성되는 것은?</string>
+</resources>

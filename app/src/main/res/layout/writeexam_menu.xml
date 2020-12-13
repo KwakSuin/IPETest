@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".write.exam.WriteExam_menu">
+
+    <TextView
+        android:id="@+id/exam01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2020년 제 1 ,2회 필기"
+        android:layout_marginTop="150dp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/exam02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2020년 제 3회 필기"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/exam03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2020년 제 4회 필기"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

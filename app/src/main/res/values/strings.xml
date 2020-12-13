@@ -85,8 +85,8 @@
     <string name="practical100_18">18. 기존 DBMS 능력을 넘어서는 대량의 정형, 비정형 데이터로부터 가치를 추출하고 결과를 분석하는 기술</string>
     <string name="practical100_19">19. 한 릴레이션의 기본키를 구성하는 어떠한 속성 값도 널(NULL) 값이나 중복값을 가질 수 없음을 의미하는 규정 </string>
     <string name="practical100_20">20. 데이터베이스에 존재하는 테이블의 관계에서 참조 무결성을 보장하기 위해 사용되며, 중복되는 값을 가질 수 있으며 비어있는 값(Null 값) 또한 가질 수 있는 키</string>
-
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
