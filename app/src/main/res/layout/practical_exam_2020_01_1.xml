@@ -35,11 +35,12 @@
                 android:layout_gravity="right">
                 <Button
                     android:id="@+id/hint01_bt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_circle"
                     android:text="정답"
-                    android:backgroundTint="#BDBDBD"
-                    android:layout_marginRight="10dp"/>
+                    app:backgroundTint="#BDBDBD"/>
             </LinearLayout>
             <EditText
                 android:id="@+id/answer01"
@@ -72,11 +73,12 @@
                 android:layout_gravity="right">
                 <Button
                     android:id="@+id/hint02_bt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_circle"
                     android:text="정답"
-                    android:backgroundTint="#BDBDBD"
-                    android:layout_marginRight="10dp"/>
+                    app:backgroundTint="#BDBDBD"/>
             </LinearLayout>
             <EditText
                 android:id="@+id/answer02"
@@ -108,11 +110,12 @@
                 android:layout_gravity="right">
                 <Button
                     android:id="@+id/hint03_bt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_circle"
                     android:text="정답"
-                    android:backgroundTint="#BDBDBD"
-                    android:layout_marginRight="10dp"/>
+                    app:backgroundTint="#BDBDBD"/>
             </LinearLayout>
             <EditText
                 android:id="@+id/answer03"
@@ -144,11 +147,12 @@
                 android:layout_gravity="right">
                 <Button
                     android:id="@+id/hint04_bt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_circle"
                     android:text="정답"
-                    android:backgroundTint="#BDBDBD"
-                    android:layout_marginRight="10dp"/>
+                    app:backgroundTint="#BDBDBD"/>
             </LinearLayout>
             <EditText
                 android:id="@+id/answer04"
@@ -180,11 +184,12 @@
                 android:layout_gravity="right">
                 <Button
                     android:id="@+id/hint05_bt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_circle"
                     android:text="정답"
-                    android:backgroundTint="#BDBDBD"
-                    android:layout_marginRight="10dp"/>
+                    app:backgroundTint="#BDBDBD"/>
             </LinearLayout>
             <EditText
                 android:id="@+id/answer05"
@@ -216,11 +221,12 @@
                 android:layout_gravity="right">
                 <Button
                     android:id="@+id/hint06_bt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_circle"
                     android:text="정답"
-                    android:backgroundTint="#BDBDBD"
-                    android:layout_marginRight="10dp"/>
+                    app:backgroundTint="#BDBDBD"/>
             </LinearLayout>
             <EditText
                 android:id="@+id/answer06"
@@ -252,11 +258,12 @@
                 android:layout_gravity="right">
                 <Button
                     android:id="@+id/hint07_bt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_circle"
                     android:text="정답"
-                    android:backgroundTint="#BDBDBD"
-                    android:layout_marginRight="10dp"/>
+                    app:backgroundTint="#BDBDBD"/>
             </LinearLayout>
             <EditText
                 android:id="@+id/answer07"
@@ -274,15 +281,14 @@
                 android:visibility="invisible"
                 android:layout_marginRight="10dp"/>
 
-            <Button
-                android:id="@+id/next"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginRight="10dp"
-                android:text="다음"
-                android:textColor="#000000"
-                app:backgroundTint="#BDBDBD" />
-
     </LinearLayout>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:text="다음"
+        android:textColor="#000000"
+        app:backgroundTint="#BDBDBD" />
 </LinearLayout>
