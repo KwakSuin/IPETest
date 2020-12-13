@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import kwaksuin.portfolio.ipetest.R;
 import kwaksuin.portfolio.ipetest.practical.exam.PracticalExam_container;
+import kwaksuin.portfolio.ipetest.practical.problem100.Problem100_container;
 import kwaksuin.portfolio.ipetest.practical.problem50.Practical50_container;
 
 public class PracticalMenu extends AppCompatActivity {
@@ -25,6 +26,16 @@ public class PracticalMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Practical50_container.class);
+                startActivity(intent);
+            }
+        });
+
+        // 실기 단답형 100문제
+        TextView test02 = findViewById(R.id.test02);
+        test02.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Problem100_container.class);
                 startActivity(intent);
             }
         });
