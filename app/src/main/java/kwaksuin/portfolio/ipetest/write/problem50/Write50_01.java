@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import kwaksuin.portfolio.ipetest.R;
 
+// 필기 객관식 50문제 1 ~ 5번 문제
 public class Write50_01 extends Fragment {
     Write50_02 page02;
 
@@ -40,20 +41,30 @@ public class Write50_01 extends Fragment {
 
                     getFragmentManager().beginTransaction().replace(R.id.container, page02).commit();
 
-                }else {
-                    // 수정 할 부분 : 정답일 때, "오답" 같이 출력 됨
+                }
+
+                // 오답
+                if(num01_01.isChecked()== false){
                     TextView error01 = rootView.findViewById(R.id.error01);
                     error01.setVisibility(View.VISIBLE);
+                }
 
+                if(num02_04.isChecked()== false){
                     TextView error02 = rootView.findViewById(R.id.error02);
                     error02.setVisibility(View.VISIBLE);
+                }
 
+                if(num03_04.isChecked()== false){
                     TextView error03 = rootView.findViewById(R.id.error03);
                     error03.setVisibility(View.VISIBLE);
+                }
 
+                if(num04_02.isChecked()== false){
                     TextView error04 = rootView.findViewById(R.id.error04);
                     error04.setVisibility(View.VISIBLE);
+                }
 
+                if(num05_04.isChecked()== false){
                     TextView error05 = rootView.findViewById(R.id.error05);
                     error05.setVisibility(View.VISIBLE);
                 }

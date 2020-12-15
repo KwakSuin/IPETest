@@ -11,6 +11,7 @@ import android.widget.Button;
 
 import kwaksuin.portfolio.ipetest.R;
 
+// 필기 객관식 50문제 6 ~ 10번 문제
 public class Write50_02 extends Fragment {
     Write50_01 page01;
 
@@ -21,6 +22,7 @@ public class Write50_02 extends Fragment {
 
         page01 = new Write50_01();
 
+        // 이전 문제
         Button back = rootView.findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +30,7 @@ public class Write50_02 extends Fragment {
                 getFragmentManager().beginTransaction().replace(R.id.container, page01).commit();
             }
         });
+
         return rootView;
     }
 }
