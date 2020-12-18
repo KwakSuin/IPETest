@@ -2,6 +2,7 @@ package kwaksuin.portfolio.ipetest.write.exam;
 
 import android.os.Bundle;
 
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -55,6 +56,15 @@ public class WriteExam_2020_01_2 extends Fragment {
                 getFragmentManager().beginTransaction().replace(R.id.container, exam01).commit();
             }
         });
+
+        // 26번 보기 버튼 - Dialog 이용해서 image 넣기
+        Button example26 = rootview.findViewById(R.id.example26);
+
+        // 28번 보기 버튼
+        Button example28 = rootview.findViewById(R.id.example28);
+
+        // 31번 보기 버튼
+        Button example31 = rootview.findViewById(R.id.example31);
 
         // 다음문제
         Button next = rootview.findViewById(R.id.next);

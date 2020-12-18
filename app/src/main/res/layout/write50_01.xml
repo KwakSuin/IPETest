@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#FFF2E6"
     tools:context=".write.problem50.Write50_01">
 
     <TextView
@@ -14,16 +15,21 @@
         android:text="@string/write50_001"
         android:textColor="#000000"
         android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical">
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
             <RadioButton
                 android:id="@+id/test01_01"
                 android:layout_width="wrap_content"
@@ -69,6 +75,9 @@
         android:text="@string/write50_002"
         android:textColor="#000000"
         android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"/>
 
     <LinearLayout
@@ -78,6 +87,8 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:orientation="horizontal">
         <RadioButton
             android:id="@+id/test02_01"
@@ -123,6 +134,9 @@
         android:text="@string/write50_003"
         android:textColor="#000000"
         android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"/>
 
     <LinearLayout
@@ -132,6 +146,8 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:orientation="horizontal">
         <RadioButton
             android:id="@+id/test03_01"
@@ -177,6 +193,9 @@
         android:text="@string/write50_004"
         android:textColor="#000000"
         android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"/>
 
     <LinearLayout
@@ -187,6 +206,8 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:orientation="vertical">
 
         <RadioButton
@@ -234,6 +255,9 @@
         android:text="@string/write50_005"
         android:textColor="#000000"
         android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"/>
 
     <LinearLayout
@@ -243,6 +267,8 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:orientation="vertical">
 
         <RadioButton

@@ -24,7 +24,7 @@ public class PracticalExam_2020_02_3 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        ViewGroup rootview = (ViewGroup)inflater.inflate(R.layout.practicalexam_2020_02_3, container, false);
+        ViewGroup rootview = (ViewGroup)inflater.inflate(R.layout.practical_exam_2020_02_3, container, false);
 
         EditText answer11 = rootview.findViewById(R.id.answer11);
         EditText answer12 = rootview.findViewById(R.id.answer12);
