@@ -50,6 +50,36 @@ public class Practical50_06 extends Fragment {
                 ){
                     getFragmentManager().beginTransaction().replace(R.id.container,page07).commit();
                 }
+
+                // 26번 오답
+                if(answer26.getText().toString().equals("트리거") || answer26.getText().toString().equals("Trigger") || answer26.getText().toString().equals("trigger") == false){
+                    TextView error26 = rootView.findViewById(R.id.error26);
+                    error26.setVisibility(View.VISIBLE);
+                }
+
+                // 27번 오답
+                if(answer27.getText().toString().equals("화이트박스 테스트") || answer27.getText().toString().equals("Whitebox Test") == false){
+                    TextView error27 = rootView.findViewById(R.id.error27);
+                    error27.setVisibility(View.VISIBLE);
+                }
+
+                // 28번 오답
+                if(answer28.getText().toString().equals("DRM") == false){
+                    TextView error28 = rootView.findViewById(R.id.error28);
+                    error28.setVisibility(View.VISIBLE);
+                }
+
+                // 29번 오답
+                if(answer29.getText().toString().equals("Git") == false){
+                    TextView error29 = rootView.findViewById(R.id.error29);
+                    error29.setVisibility(View.VISIBLE);
+                }
+
+                // 30번 오답
+                if(answer30.getText().toString().equals("테스트 케이스") || answer30.getText().toString().equals("테스트케이스") == false){
+                    TextView error30 = rootView.findViewById(R.id.error30);
+                    error30.setVisibility(View.VISIBLE);
+                }
             }
         });
 

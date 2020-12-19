@@ -49,6 +49,36 @@ public class Practical50_08 extends Fragment {
                 ){
                     getFragmentManager().beginTransaction().replace(R.id.container,page09).commit();
                 }
+                
+                // 36번 오답
+                if(answer36.getText().toString().equals("드라이버") || answer36.getText().toString().equals("driver") == false){
+                    TextView error36 = rootview.findViewById(R.id.error36);
+                    error36.setVisibility(View.VISIBLE);
+                }
+
+                // 37번 오답
+                if(answer37.getText().toString().equals("클린코드") || answer37.getText().toString().equals("클린 코드") == false){
+                    TextView error37 = rootview.findViewById(R.id.error37);
+                    error37.setVisibility(View.VISIBLE);
+                }
+
+                // 38번 오답
+                if(answer38.getText().toString().equals("허브 앤 스포크") || answer38.getText().toString().equals("Hub & Spoke") || answer38.getText().toString().equals("hub & spoke") == false){
+                    TextView error38 = rootview.findViewById(R.id.error38);
+                    error38.setVisibility(View.VISIBLE);
+                }
+
+                // 39번 오답
+                if(answer39.getText().toString().equals("메시지버스") || answer39.getText().toString().equals("메시지 버스") || answer39.getText().toString().equals("Message Bus") || answer39.getText().toString().equals("message bus") == false){
+                    TextView error39 = rootview.findViewById(R.id.error39);
+                    error39.setVisibility(View.VISIBLE);
+                }
+
+                // 40번 오답
+                if(answer40.getText().toString().equals("느슨한 결합") || answer40.getText().toString().equals("loose coupling") == false){
+                    TextView error40 = rootview.findViewById(R.id.error40);
+                    error40.setVisibility(View.VISIBLE);
+                }
             }
         });
 

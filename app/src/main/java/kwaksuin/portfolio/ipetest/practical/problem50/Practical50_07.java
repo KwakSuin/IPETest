@@ -48,6 +48,36 @@ public class Practical50_07 extends Fragment {
                     getFragmentManager().beginTransaction().replace(R.id.container,page08).commit();
                 }
 
+                // 31번 오답
+                if(answer31.getText().toString().equals("테스트 스나리오") == false){
+                    TextView error31 = rootview.findViewById(R.id.error31);
+                    error31.setVisibility(View.VISIBLE);
+                }
+
+                // 32번 오답
+                if(answer32.getText().toString().equals("결합집중") || answer32.getText().toString().equals("결합 집중") == false){
+                    TextView error32 = rootview.findViewById(R.id.error32);
+                    error32.setVisibility(View.VISIBLE);
+                }
+
+                // 33번 오답
+                if(answer33.getText().toString().equals("오류-부재의 궤변") || answer33.getText().toString().equals("오류부재의 궤변") || answer33.getText().toString().equals("오류 부재의 궤변") == false){
+                    TextView error33 = rootview.findViewById(R.id.error33);
+                    error33.setVisibility(View.VISIBLE);
+                }
+
+                // 34번 오답
+                if(answer34.getText().toString().equals("빅뱅 통합 테스트") == false){
+                    TextView error34 = rootview.findViewById(R.id.error34);
+                    error34.setVisibility(View.VISIBLE);
+                }
+
+                // 35번 오답
+                if(answer35.getText().toString().equals("스텁") || answer35.getText().toString().equals("stub") == false){
+                    TextView error35 = rootview.findViewById(R.id.error35);
+                    error35.setVisibility(View.VISIBLE);
+                }
+
             }
         });
 

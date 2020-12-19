@@ -46,6 +46,37 @@ public class Practical50_10 extends Fragment {
                 ){
                     Toast.makeText(getContext(),"정답입니다. 수고하셨습니다.",Toast.LENGTH_LONG).show();
                 }
+
+                // 46번 오답
+                if(answer46.getText().toString().equals("TCP") == false){
+                    TextView error46 = rootview.findViewById(R.id.error46);
+                    error46.setVisibility(View.VISIBLE);
+                }
+
+                // 47번 오답
+                if(answer47.getText().toString().equals("WAS") == false){
+                    TextView error47 = rootview.findViewById(R.id.error47);
+                    error47.setVisibility(View.VISIBLE);
+                }
+
+                // 48번 오답
+                if(answer48.getText().toString().equals("기밀성, 가용성, 무결성") || answer48.getText().toString().equals("기밀성 가용성 무결성") || answer48.getText().toString().equals("기밀성/가용성/무결성") == false){
+                    TextView error48 = rootview.findViewById(R.id.error48);
+                    error48.setVisibility(View.VISIBLE);
+                }
+
+                // 49번 오답
+                if(answer49.getText().toString().equals("검증, 확인") || answer49.getText().toString().equals("검증 확인") || answer49.getText().toString().equals("검증/확인") == false){
+                    TextView error49 = rootview.findViewById(R.id.error49);
+                    error49.setVisibility(View.VISIBLE);
+                }
+
+                // 50번 오답
+                if(answer50.getText().toString().equals("미들웨어") == false){
+                    TextView error50 = rootview.findViewById(R.id.error50);
+                    error50.setVisibility(View.VISIBLE);
+                }
+
             }
         });
 

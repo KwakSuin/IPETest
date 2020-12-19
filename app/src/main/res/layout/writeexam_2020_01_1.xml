@@ -9,6 +9,16 @@
     tools:context=".write.exam.WriteExam_2020_01_1">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2020년 제 1,2 회 필기문제"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
         android:id="@+id/test01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -46,7 +46,36 @@ public class Practical50_02 extends Fragment {
                     getFragmentManager().beginTransaction().replace(R.id.container,page03).commit();
                 }
                 
-                // 오답 출력
+                // 6번 오답
+                if(answer06.getText().toString().equals("UI") || answer06.getText().toString().equals("User Interface") == false){
+                    TextView error06 = rootView.findViewById(R.id.error06);
+                    error06.setVisibility(View.VISIBLE);
+                }
+
+                // 6번 오답
+                if(answer07.getText().toString().equals("UML") == false){
+                    TextView error07 = rootView.findViewById(R.id.error07);
+                    error07.setVisibility(View.VISIBLE);
+                }
+
+                // 8번 오답
+                if(answer08.getText().toString().equals("UX") == false){
+                    TextView error08 = rootView.findViewById(R.id.error08);
+                    error08.setVisibility(View.VISIBLE);
+                }
+
+                // 9번 오답
+                if(answer09.getText().toString().equals("사용성 테스트") || answer09.getText().toString().equals("사용성테스트") == false){
+                    TextView error09 = rootView.findViewById(R.id.error09);
+                    error09.setVisibility(View.VISIBLE);
+                }
+
+                // 10번 오답
+                if(answer10.getText().toString().equals("와이어 프레임") || answer10.getText().toString().equals("와이어프레임") == false){
+                    TextView error10 = rootView.findViewById(R.id.error10);
+                    error10.setVisibility(View.VISIBLE);
+                }
+
             }
         });
         

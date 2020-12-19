@@ -47,6 +47,36 @@ public class Practical50_09 extends Fragment {
                 ){
                     getFragmentManager().beginTransaction().replace(R.id.container,page10).commit();
                 }
+
+                // 41번 오답
+                if(answer41.getText().toString().equals("WSDL") == false){
+                    TextView error41 = rootview.findViewById(R.id.error41);
+                    error41.setVisibility(View.VISIBLE);
+                }
+
+                // 42번 오답
+                if(answer42.getText().toString().equals("UDDI") == false){
+                    TextView error42 = rootview.findViewById(R.id.error42);
+                    error42.setVisibility(View.VISIBLE);
+                }
+
+                // 43번 오답
+                if(answer43.getText().toString().equals("CSRF") == false){
+                    TextView error43 = rootview.findViewById(R.id.error43);
+                    error43.setVisibility(View.VISIBLE);
+                }
+
+                // 44번 오답
+                if(answer44.getText().toString().equals("회귀 테스트") || answer44.getText().toString().equals("회귀테스트") == false){
+                    TextView error44 = rootview.findViewById(R.id.error44);
+                    error44.setVisibility(View.VISIBLE);
+                }
+
+                // 45번 오답
+                if(answer45.getText().toString().equals("SSO") == false){
+                    TextView error45 = rootview.findViewById(R.id.error45);
+                    error45.setVisibility(View.VISIBLE);
+                }
             }
         });
 

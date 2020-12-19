@@ -47,6 +47,36 @@ public class Practical50_04 extends Fragment {
                     getFragmentManager().beginTransaction().replace(R.id.container,page05).commit();
                 }
 
+                // 16번 오답
+                if(answer16.getText().toString().equals("소프트웨어 아키텍처 4+1 view") == false){
+                    TextView error16 = rootView.findViewById(R.id.error16);
+                    error16.setVisibility(View.VISIBLE);
+                }
+
+                // 17번 오답
+                if(answer17.getText().toString().equals("캡슐화") == false){
+                    TextView error17 = rootView.findViewById(R.id.error17);
+                    error17.setVisibility(View.VISIBLE);
+                }
+
+                // 18번 오답
+                if(answer18.getText().toString().equals("추상화") == false){
+                    TextView error18 = rootView.findViewById(R.id.error18);
+                    error18.setVisibility(View.VISIBLE);
+                }
+
+                // 19번 오답
+                if(answer19.getText().toString().equals("기능적 요구사항") || answer19.getText().toString().equals("기능적요구사항") == false){
+                    TextView error19 = rootView.findViewById(R.id.error19);
+                    error19.setVisibility(View.VISIBLE);
+                }
+
+                // 20번 오답
+                if(answer20.getText().toString().equals("비기능적 요구사항") || answer20.getText().toString().equals("비기능적요구사항") == false){
+                    TextView error20 = rootView.findViewById(R.id.error20);
+                    error20.setVisibility(View.VISIBLE);
+                }
+
             }
         });
 

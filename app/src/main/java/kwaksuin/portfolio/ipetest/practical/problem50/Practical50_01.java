@@ -45,22 +45,41 @@ public class Practical50_01 extends Fragment {
                 ){
                     getFragmentManager().beginTransaction().replace(R.id.container, page02).commit();
 
-                }else{
-                    // 수정 할 부분 : 정답일 때, "오답" 같이 출력 됨
+                }
+
+                // 1번 오답
+                if(answer01.getText().toString().equals("클래스다이어그램") || answer01.getText().toString().equals("클래스다이어그램") || answer01.getText().toString().equals("Class Diagram") == false){
                     TextView error01 = rootView.findViewById(R.id.error01);
                     error01.setVisibility(View.VISIBLE);
 
+                }
+
+                // 2번 오답
+                if(answer02.getText().toString().equals("시퀀스다이어그램") || answer02.getText().toString().equals("시퀀스 다이어그램") == false){
                     TextView error02 = rootView.findViewById(R.id.error02);
                     error02.setVisibility(View.VISIBLE);
 
+                }
+
+                // 3번 오답
+                if(answer03.getText().toString().equals("라우터") == false){
                     TextView error03 = rootView.findViewById(R.id.error03);
                     error03.setVisibility(View.VISIBLE);
 
+                }
+
+                // 4번 오답
+                if(answer04.getText().toString().equals("스위치") == false){
                     TextView error04 = rootView.findViewById(R.id.error04);
                     error04.setVisibility(View.VISIBLE);
 
+                }
+
+                // 5번 오답
+                if(answer05.getText().toString().equals("JDBC") == false){
                     TextView error05 = rootView.findViewById(R.id.error05);
                     error05.setVisibility(View.VISIBLE);
+
                 }
             }
         });

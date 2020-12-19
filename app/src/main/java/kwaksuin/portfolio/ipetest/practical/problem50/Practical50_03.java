@@ -47,6 +47,36 @@ public class Practical50_03 extends Fragment {
                 ){
                     getFragmentManager().beginTransaction().replace(R.id.container,page04).commit();
                 }
+
+                // 11번 오답
+                if(answer11.getText().toString().equals("스토리보드") == false){
+                    TextView error11 = rootView.findViewById(R.id.error11);
+                    error11.setVisibility(View.VISIBLE);
+                }
+
+                // 12번 오답
+                if(answer12.getText().toString().equals("프로토타입") == false){
+                    TextView error12 = rootView.findViewById(R.id.error12);
+                    error12.setVisibility(View.VISIBLE);
+                }
+
+                // 13번 오답
+                if(answer13.getText().toString().equals("유스케이스") || answer13.getText().toString().equals("UseCase") == false){
+                    TextView error13 = rootView.findViewById(R.id.error13);
+                    error13.setVisibility(View.VISIBLE);
+                }
+
+                // 14번 오답
+                if(answer14.getText().toString().equals("모듈화") == false){
+                    TextView error14 = rootView.findViewById(R.id.error14);
+                    error14.setVisibility(View.VISIBLE);
+                }
+
+                // 15번 오답
+                if(answer15.getText().toString().equals("소프트웨어 아키텍처") == false){
+                    TextView error15 = rootView.findViewById(R.id.error15);
+                    error15.setVisibility(View.VISIBLE);
+                }
             }
         });
 

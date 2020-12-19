@@ -13,6 +13,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 import kwaksuin.portfolio.ipetest.R;
 
 // 실기 21 ~ 25번 문제
@@ -46,6 +48,36 @@ public class Practical50_05 extends Fragment {
                         && (answer25.getText().toString().equals("트랜잭션") || answer25.getText().toString().equals("Transaction"))
                 ) {
                     getFragmentManager().beginTransaction().replace(R.id.container,page06).commit();
+                }
+                
+                // 21번 오답
+                if(answer21.getText().toString().equals("워크스루") || answer21.getText().toString().equals("워크 스루") == false){
+                    TextView error21 = rootView.findViewById(R.id.error21);
+                    error21.setVisibility(View.VISIBLE);
+                }
+
+                // 21번 오답
+                if(answer22.getText().toString().equals("인스펙션") == false){
+                    TextView error22 = rootView.findViewById(R.id.error22);
+                    error22.setVisibility(View.VISIBLE);
+                }
+
+                // 23번 오답
+                if(answer23.getText().toString().equals("EAI") == false){
+                    TextView error23 = rootView.findViewById(R.id.error23);
+                    error23.setVisibility(View.VISIBLE);
+                }
+
+                // 24번 오답
+                if(answer24.getText().toString().equals("ESB") == false){
+                    TextView error24 = rootView.findViewById(R.id.error24);
+                    error24.setVisibility(View.VISIBLE);
+                }
+
+                // 25번 오답
+                if(answer25.getText().toString().equals("트랜잭션") || answer25.getText().toString().equals("Transaction") == false){
+                    TextView error25 = rootView.findViewById(R.id.error25);
+                    error25.setVisibility(View.VISIBLE);
                 }
             }
         });
