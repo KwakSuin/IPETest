@@ -17,6 +17,7 @@ import kwaksuin.portfolio.ipetest.R;
 
 public class WriteExam_2020_01_2 extends Fragment {
     WriteExam_2020_01_1 exam01;
+    WriteExam_2020_01_3 exam03;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -67,6 +68,7 @@ public class WriteExam_2020_01_2 extends Fragment {
         Button example31 = rootview.findViewById(R.id.example31);
 
         // 다음문제
+        exam03 = new WriteExam_2020_01_3();
         Button next = rootview.findViewById(R.id.next);
         next.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,7 +79,7 @@ public class WriteExam_2020_01_2 extends Fragment {
                         && num31_02.isChecked() && num32_04.isChecked() && num33_03.isChecked() && num34_02.isChecked() && num35_03.isChecked()
                         && num36_03.isChecked() && num37_03.isChecked() && num38_01.isChecked() && num39_03.isChecked() && num40_02.isChecked()
                 ){
-                    Toast.makeText(getContext(),"정답입니다.",Toast.LENGTH_SHORT).show();
+                    getFragmentManager().beginTransaction().replace(R.id.container,exam03).commit();
                 }
 
                 // 오답
