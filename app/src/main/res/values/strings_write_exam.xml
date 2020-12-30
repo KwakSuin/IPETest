@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    /** 필기 제 1, 2회, 제 1과목 소프트웨어 설계 1 ~ 20 문제 **/
+    /** 필기 제 1, 2회, 제 1과목 소프트웨어 설계 1 ~ 20번 문제 **/
     <string name="WriteExam_2020_01_1">1. 검토회의 전에 요구사항 명세서를 미리 배포하여 사전 검토한 후 짧은 검토 회의를 통해 오류를 조기에 검출하는데 목적을 두는 요구 사항 검토 방법은?</string>
     <string name="WriteExam_2020_01_2">2. 코드 설계에서 일정한 일련번호를 부여하는 방식의 코드는?</string>
     <string name="WriteExam_2020_01_3">3. 객체지향 프로그램에서 데이터를 추상화하는 단위는?</string>
@@ -48,7 +48,7 @@
     <string name="WriteExam_2020_01_40">40. 외계인 코드(Alien Code)에 대한 설명으로 옳은 것은?</string>
 
 
-    /** 필기 제 1, 2회, 제 3과목 데이터베이스 구축 41 ~ 60 문제 **/
+    /** 필기 제 1, 2회, 제 3과목 데이터베이스 구축 41 ~ 60번 문제 **/
     <string name="WriteExam_2020_01_41">41. SQL의 분류 중 DDL에 해당하지 않는 것은?</string>
     <string name="WriteExam_2020_01_42">42. 다음 두 릴레이션에서 외래키로 사용된 것은? (단, 밑줄 친 속성은 기본키이다.)</string>
     <string name="WriteExam_2020_01_43">43. 데이터 무결성 제약조건 중 "개체 무결성 제약"조건에 대한 설명으로 맞는 것은?</string>
@@ -70,5 +70,55 @@
     <string name="WriteExam_2020_01_58">58. E-R 모델의 표현 방법으로 옳지 않은 것은?</string>
     <string name="WriteExam_2020_01_59">59. 다음 설명의(　)안에 들어갈 내용으로 적합한 것은? "후보키는 릴레이션에 있는 모든 튜플에 대해 유일성과 (　)을 모두 만족시켜야 한다."</string>
     <string name="WriteExam_2020_01_60">60. 정규화 과정 중 1NF에서 2NF가 되기 위한 조건은?</string>
+
+
+    /** 필기 제 1, 2회, 제 4과목 프로그래밍 언어 활용 61 ~ 80번 문제 **/
+    <string name="WriteExam_2020_01_61">61. IPv6에 대한 설명으로 틀린 것은?</string>
+    <string name="WriteExam_2020_01_62">62. C언어에서 비트 논리연산자에 해당하지 않는 것은?</string>
+    <string name="WriteExam_2020_01_63">63. TCP/IP 프로토콜 중 전송계층 프로토콜은?</string>
+    <string name="WriteExam_2020_01_64">64. 시스템에서 모듈 사이의 결합도에 대한 설명으로 옳은 것은?</string>
+    <string name="WriteExam_2020_01_65">65. 은행가 알고리즘은 교착상태의 해결 방법 중 어떤 기법에 해당하는가?</string>
+    <string name="WriteExam_2020_01_66">66. UNIX의 쉘에 관한 설명으로 옳지 않은 것은?</string>
+    <string name="WriteExam_2020_01_67">67. 교착 상태 발생의 필요 충분 조건이 아닌 것은?</string>
+    <string name="WriteExam_2020_01_68">68. OSI-7계층에서 종단간 신뢰성 있고 효율적인 데이터를 전송하기 위해 오류검출과 복구, 흐름제어를 수행하는 계층은?</string>
+    <string name="WriteExam_2020_01_69">69. IPv6의 주소체계로 거리가 먼 것은?</string>
+    <string name="WriteExam_2020_01_70">70. TCP/IP 네트워크에서 IP주소를 MAC주소로 변환하는 프로토콜은?</string>
+
+    <string name="WriteExam_2020_01_71">71. 프로세스 상태의 종류가 아닌 것은?</string>
+    <string name="WriteExam_2020_01_72">72. 스레드에 대한 설명으로 옳지 않은 것은?</string>
+    <string name="WriteExam_2020_01_73">73. HRN 스케줄링 방식에 대한 설명으로 옳지 않은 것은?</string>
+    <string name="WriteExam_2020_01_74">74. IEEE 802.11 워킹 그룹의 무선 LAN 표준화 현황 중 QoS 강화를 위해 MAC 지원 기능을 채택한 것은?</string>
+    <string name="WriteExam_2020_01_75">75. C언어에서 사용할 수 없는 변수명은?</string>
+    <string name="WriteExam_2020_01_76">76. 스크립트 언어가 아닌 것은?</string>
+    <string name="WriteExam_2020_01_77">77. 다음의 페이지 참조 열에 대해 페이지 교체 기법으로 선입선출 알고리즘을 사용할 경우 페이지 부재 횟수는?</string>
+    <string name="WriteExam_2020_01_78">78. C언어에서 배열 b[5]의 값은?</string>
+    <string name="WriteExam_2020_01_79">79. 응집도가 가장 낮은 것은?</string>
+    <string name="WriteExam_2020_01_80">80. JAVA언어에서 접근 제한자가 아닌 것은?</string>
+
+
+
+    /** 필기 제 1, 2회, 제 5과목 정보시스템 구축 관리 81 ~ 100번 문제 **/
+    <string name="WriteExam_2020_01_81">81. Rayleigh-Norden 곡선의 노력 분포도를 이용한 프로젝트 비용 산정기법은?</string>
+    <string name="WriteExam_2020_01_82">82. 메모리상에서 프로그램의 복귀 주소와 변수사이에 특정 값을 저장해 두었다가 그 값이 변경되었을 경우 오버플로우 상태로 가정하여 프로그램 실행을 중단하는 기술은?</string>
+    <string name="WriteExam_2020_01_83">83. 백도어 탐지 방법으로 틀린 것은?</string>
+    <string name="WriteExam_2020_01_84">84. IP 또는 ICMP의 특성을 약용하여 특정 사이트에 집중적으로 데이터를 보내 네트워크 또는 시스템의 상태를 불능으로 만드는 공격 방법은?</string>
+    <string name="WriteExam_2020_01_85">85. CMM 모델의 레벨로 옳지 않은 것은?</string>
+    <string name="WriteExam_2020_01_86">86. 웹과 컴퓨터 프로그램에서 용량이 적은 데이터를 교환하기 위해 데이터 객체를 속성,값의 쌍 형태로 표현하는 형식으로 자바스크립트를 토대로 개발되어진 형식은?</string>
+    <string name="WriteExam_2020_01_87">87. 크래커가 칩입하여 백도어를 만들어 놓거나, 설정 파일을 변경했을 때 분석하는 도구는?</string>
+    <string name="WriteExam_2020_01_88">88. 소프트웨어 개발 프레임워크를 적용할 경우 기대효과로 거리가 먼 것은?</string>
+    <string name="WriteExam_2020_01_89">89. COCOMO model 중 기관 내부에서 개발된 중소 규모의 소프트웨어로 일괄 자료 처리나 과학기술 계산용, 비즈니스 자료 처리용으로 5만 라인 이하의 소프트웨어를 개발하는 유형은?</string>
+    <string name="WriteExam_2020_01_90">90. 여러 개의 독립된 통신장치가 UWB기술 또는 블루투스 기술을 사용하여 통신망을 형성하는 무선 네트워크 기술은?</string>
+
+    <string name="WriteExam_2020_01_91">91. 프로토타입을 지속적으로 발전시켜 최종 소프트웨어 개발까지 이르는 개발방법으로 위험관리가 중심인 소프트웨어 생명주기 모형은?</string>
+    <string name="WriteExam_2020_01_92">92. 다음이 설명하는 용어로 옳은 것은?</string>
+    <string name="WriteExam_2020_01_93">93. 소인수 분해 문제를 이용한 공개키 암호화 기법에 널리 사용되는 암호 알고리즘 기법은?</string>
+    <string name="WriteExam_2020_01_94">94. LOC 기법에 의하여 예측된 총 라인수가 50000라인, 프로그래머의 월 평균 생산성이 200라인, 개발에 참여할 프로그래머가 10인 일 때, 개발 소요 기간은?</string>
+    <string name="WriteExam_2020_01_95">95. 최대 홉수를 15로 제한한 라우팅 프로토콜은?</string>
+    <string name="WriteExam_2020_01_96">96. 컴퓨터 사용자의 키보드 움직임을 탐지해 ID, 패스워드 등 개인의 중요한 정보를 몰래 빼가는 해킹 공격은?</string>
+    <string name="WriteExam_2020_01_97">97. 테일러링 개발 방법론의 내부 기준에 해당하지 않는 것은?</string>
+    <string name="WriteExam_2020_01_98">98. 폭포수 모형의 특징으로 거리가 먼 것은?</string>
+    <string name="WriteExam_2020_01_99">99. 다음 설명의 정보보안 침해 공격 관련 용어는?</string>
+    <string name="WriteExam_2020_01_100">100. 시스템 내의 정보느느 오직 인가된 사용자만 수정할 수 있는 보안 요소는?</string>
+
 
 </resources>
