@@ -18,10 +18,316 @@
         android:textStyle="bold"/>
 
     <TextView
-        android:id="@+id/test41"
+        android:id="@+id/test81"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/WriteExam_2020_01_41"
+        android:text="@string/WriteExam_2020_01_81"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/test81_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Putnam 모형"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test81_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="델파이 모형"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test81_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COCOMO 모형"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test81_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기능점수 모형"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_82"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/test82_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="모드체크"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test82_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="리커버리 통제"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test82_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="시스로그"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test82_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="스택가드"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/test83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_83"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/test83_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="무결성 검사"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test83_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="닫힌 포트 확인"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test83_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="로그 분석"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test83_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SetUID 파일 검사"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_84"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/test84_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TearDrop"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test84_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Smishing"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test84_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qshing"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test84_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Smurfing"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_85"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/test85_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최적 단계"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test85_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="관리 단계"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test85_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="정의 단계"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test85_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="계획 단계"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test86"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_86"
         android:textColor="#000000"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -40,32 +346,900 @@
             android:layout_marginRight="10dp"
             android:orientation="horizontal">
             <RadioButton
-                android:id="@+id/test41_01"
+                android:id="@+id/test86_01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="UPDATE"
+                android:text="Python"
                 android:textSize="13sp"/>
             <RadioButton
-                android:id="@+id/test41_02"
+                android:id="@+id/test86_02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ALTER"
+                android:text="XML"
                 android:textSize="13sp"/>
             <RadioButton
-                android:id="@+id/test41_03"
+                android:id="@+id/test86_03"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="DROP"
+                android:text="JSON"
                 android:textSize="13sp"/>
             <RadioButton
-                android:id="@+id/test41_04"
+                android:id="@+id/test86_04"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="CREATE"
+                android:text="WEB SERVER"
                 android:textSize="13sp"/>
 
             <TextView
-                android:id="@+id/error41"
+                android:id="@+id/error86"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_87"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/test87_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="trace"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test87_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tripwire"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test87_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="udpdump"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test87_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cron"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_88"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/test88_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="품질보증"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test88_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="시스템 복잡도 증가"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test88_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="개발 용이성"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test88_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="변경 용이성"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error88"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_89"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/test89_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="embeded"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test89_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="organic"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test89_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="semi-detached"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test89_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="semi-embeded"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error89"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_90"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/test90_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PICONET"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test90_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SCRUM"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test90_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NFC"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test90_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WI-SUN"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_91"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/test91_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="나선형 모형"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test91_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="델파이 모형"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test91_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="폭포수 모형"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test91_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기능점수 모형"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error91"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_92"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/test92_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="하둡"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test92_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="비컨"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test92_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="포스웨어"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test92_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="맴리스터"
+                android:textSize="13sp"/>
+            <Button
+                android:id="@+id/example92"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="보기"
+                android:backgroundTint="#BDBDBD"/>
+
+            <TextView
+                android:id="@+id/error92"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_93"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/test93_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RSA"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test93_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ECC"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test93_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PKI"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test93_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PEM"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error93"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_94"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/test94_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25개월"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test94_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50개월"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test94_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200개월"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test94_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2000개월"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error94"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_95"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/test95_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RIP"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test95_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OSPF"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test95_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Static"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test95_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EIGRP"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error95"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_96"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/test96_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Key Logger Attack"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test96_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Worm"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test96_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rollback"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test96_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zombie Worm"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error96"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test97"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_97"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/test97_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="납기/비용"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test97_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기술환경"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test97_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="구성원 능력"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test97_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="국제표준 품질기준"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error97"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_98"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/test98_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="개발 중 발생한 요구사항을 쉽게 반영할 수 있다."
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test98_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="순차적인 접근방법을 이용한다."
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test98_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="단계적 정의와 산출물이 명확하다."
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test98_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="모형의 적용 경험과 성공사례가 많다."
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error98"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_99"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/test99_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Smishing"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test99_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C-brain"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test99_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trojan Horse"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test99_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ransomware"
+                android:textSize="13sp"/>
+            <Button
+                android:id="@+id/example49"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="보기"
+                android:backgroundTint="#BDBDBD"/>
+
+            <TextView
+                android:id="@+id/error99"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오답"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/test100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WriteExam_2020_01_100"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/test100_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기밀성"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test100_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="부인방지"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test100_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가용성"
+                android:textSize="13sp"/>
+            <RadioButton
+                android:id="@+id/test100_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="무결성"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/error100"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
@@ -99,7 +1273,7 @@
             android:id="@+id/next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="다음"
+            android:text="확인"
             android:layout_marginRight="10dp"
             android:backgroundTint="#BDBDBD"
             android:textColor="#000000"/>
